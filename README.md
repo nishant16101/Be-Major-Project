@@ -1,10 +1,7 @@
 # Rough Workflow
-
-Perfect! 🙌 Adding **drawing tools** makes your project way more expressive—users can point out not only single danger spots but also entire unsafe **zones** (dark alley, noisy street, accident-prone intersection, etc.). Let’s expand the workflow to cover **points + polygons**.
-
 ---
 
-### 1. **Frontend (Maplibre + Drawing Tools)**
+### 1. **Frontend (Maplibre + Drawing Tools)** --> Research
 
 - **Map Setup**
 
@@ -19,7 +16,7 @@ Perfect! 🙌 Adding **drawing tools** makes your project way more expressive—
     - **Polygon** → draw unsafe zone.
     - ~~**Line** → optional (e.g., unsafe road).~~
 
-- **Form Data**
+- **Form Data** --> Find better ways of storing
 
   - Once drawn, capture geometry + metadata (type, description).
   - Example payload:
